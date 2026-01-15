@@ -10,7 +10,7 @@ This skill allows the agent to perform an "Open Source Health Check" on the curr
 ## Instructions
 1.  **Run Analysis**: Execute the `analyze_project.py` script located in the same directory as this skill.
     ```powershell
-    python .agent/skills/howopen/analyze_project.py
+    python .agent/skills/howopen/scripts/analyze_project.py
     ```
 2.  **Process Output**: The script will output a JSON object containing:
     - `tech_stack`: A list of identified frameworks and tools.
@@ -25,4 +25,4 @@ This skill allows the agent to perform an "Open Source Health Check" on the curr
       A table listing dependencies, their versions, and their licenses. Highlight any "Unknown" or restrictive licenses (like GPL) if relevant.
 
 ## Resources
-- `analyze_project.py`: Helper script for technical analysis.
+- `scripts/analyze_project.py`: Helper script for technical analysis.

@@ -1,3 +1,8 @@
+---
+name: howopen
+description: This skill allows the agent to perform an "Open Source Health Check" on the current project. It analyzes the technology stack, programming language distribution, and open-source licenses of dependencies.
+---
+
 # howopen Skill
 
 This skill allows the agent to perform an "Open Source Health Check" on the current project. It analyzes the technology stack, programming language distribution, and open-source licenses of dependencies.
